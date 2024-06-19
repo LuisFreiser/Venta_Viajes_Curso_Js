@@ -7,7 +7,7 @@ let tituloElemento = document.getElementById('titulo')
 let subtituloElemento = document.getElementById('subtitulo')
 let parrafoElemento = document.getElementById('parrafo')
 let precioElemento = document.getElementById('precio')
-
+console.log(enlaces);
 
 // Agregar un evento CLICK a cada enlace
 enlaces.forEach(function (enlace) {
